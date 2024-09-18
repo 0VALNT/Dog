@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:"Roboto";
+    src: url(../fonts/Roboto-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family:"Roboto";
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1060px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.main{
+    background: url(../img/bg-main.png) ;
+    height: 100vh;
+    background-position:  center;
+    background-size: cover;
+    align-items: center;
+    &__titl{
+        color: white;
+        font-size: 56px;
+        padding-top: 280px;
+        font-family: Roboto;
+        font-weight: 900;
+    }
+    &__btn{
+        padding-top: 30px; 
+        align-items: center;
+    }
+    &__link{
+        background-color: #F2726F;
+        border-radius: 8px;
+        color: white;
+        font-size: 12px;
+        padding: 17px 38px;
+        text-decoration: none;
+        font-family: Roboto;
+        font-weight: 700;
+    }
+}
+.about{
+    padding-bottom: 120px;
+    &__wrap{
+        height: 700px;
+        background-color: #5D62B5;
+        border-radius: 40px;
+        margin-top: -80px;
+        position: relative;
+    }
+    &__dots{
+        position: absolute;
+        top: -110px;
+        right: -70px;
+    }
+    &__dogs{
+        border-radius: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -120px;
+        z-index: 1;
+    }
+    &__blob{
+        position: absolute;
+        bottom: -166px;
+        
+        
+    }
+    &__who{
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+    &__who-we{
+        color: #F5F5F5;
+        font-family: Roboto;
+        font-weight: 700;
+    }
+    &__who-name{
+        display: flex;
+    }
+    &__who-img{
+        position: relative;
+        top: -4px;
+        right: 5px;
+    }
+    &__who-titl{
+        font-size: 36px;
+        color:white;
+        max-width: 583px;
+        padding-bottom: 36px;
+        font-family: Roboto;
+        font-weight: 900;
+    }
+    &__who-text{
+        color: white;
+        max-width: 846px;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 400;
+    }
+}
+.perspiciatis{
+    padding-bottom: 120px;
+    padding-top: 120px;
+    &__subtitl{
+        font-family: Roboto;
+        font-weight: 700;
+        display: flex;
+        color: #5D62B5;
+        padding-bottom: 33px;
+    }
+    &__subtitl-img{
+        top: -4px;
+        position: relative;
+        
+    }
+    &__titl{
+        color: black;
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: 900;
+    }
+    &__textblock{
+        padding-left: 23px;
+    }
+    &__textblock-titl{
+        font-size: 19px;
+        color: #F2726F;
+        font-family: Roboto;
+        font-weight: 900;
+    }
+    &__textblock-text{
+        color: #4B4B4B;
+        padding-bottom: 20px;
+        max-width: 235px;
+        padding-top: 20px;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 400;
+    }
+    &__cart{
+        display: flex;
+        padding-left: 27px;
+    }
+    &__carts{
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+}
+.airport{
+    margin-bottom: 200px;
+    background-color: #29C3BE;
+    height: 500px;
+    position: relative;
+    &__pup{
+        top: 44px;
+        position: absolute;
+        z-index: 0;
+    }
+    &__dots{
+        position: absolute;
+        top: 126px;
+        z-index: 0;
+    }
+    &__blob{
+        position: absolute;
+        
+    }
+    &__Line{
+        position: absolute;
+        top: 1px;
+        right: 185px;
+    }
+    &__ball{
+        position: absolute;
+        top: 134px;
+        right: 128px;
+    }
+    &__textblock{
+        position: absolute;
+        top: 134px;
+        right: 298px;
+    }
+    &__textblock-text{
+        font-family: Roboto;
+        font-weight: 900;
+        color: white;
+        font-size: 36px;
+        max-width: 400px;
+        
+    }
+    &__textblock-btn{
+        padding-top: 51px;
+    }
+    &__textblock-link{
+        background-color: #F2726F;
+        border-radius: 8px;
+        color: white;
+        font-size: 12px;
+        padding: 17px 38px;
+        text-decoration: none;
+        font-family: Roboto;
+        font-weight: 700;
+    }
+}
